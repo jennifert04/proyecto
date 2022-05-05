@@ -1,1 +1,1 @@
-# telem-tica
+# proyecto
