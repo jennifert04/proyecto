@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN workdir /myapp
+WORKDIR /myapp
 RUN apt update
 RUN apt install python3 -y
 RUN apt install python3-pip -y
