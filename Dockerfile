@@ -4,6 +4,7 @@ RUN apt update
 RUN apt install python3 -y
 RUN apt install python3-pip -y
 RUN apt install git-core -y
+RUN pip3 install flask -y
 RUN git clone https://github.com/jennifert04/proyecto.git 
 RUN mkdir templates 
 RUN mkdir static
